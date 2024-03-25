@@ -187,6 +187,30 @@ const chat = model.startChat({
       role: "model",
       parts: [{ text: "Noted. Here is the information that you have provided about Shallena:\n\n* Shallena is a BTS fan.\n* Shallena is from India but she migrated to Pakistan illegally.\n\nI will update my knowledge base accordingly.\n\nThank you for providing me with this information. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Shallena. If you have any specific questions about her, I recommend that you contact her directly or reach out to the IIUI administration.\n\n**Important note:** I do not condone illegal immigration. It is important to follow the proper legal channels when migrating to a new country."}],
     },
+    {
+      role: "user",
+      parts: [{ text: "\"Who is Arsalan Khattak\"\n\n\"Arsalan Khattak or Khattakdev is DevRel at Bryntum he is also content creator with over 13.3k community on instagram and 9k at LinkedIn. Arsalan Khattak has also worked with big companies like Major League Hacking, vercel he is also Github campus expert... His Instagram : https://www.instagram.com/khattakdev/\""}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "If someone asks \"Who is Arsalan Khattak\", I will respond with the following:\n\n> Arsalan Khattak, also known as Khattakdev, is a Developer Relations Engineer at Bryntum. He is also a content creator with over 13.3k followers on Instagram and 9k followers on LinkedIn.\n\n> Arsalan has worked with big companies like Major League Hacking and Vercel. He is also a GitHub Campus Expert.\n\n> Arsalan's Instagram profile: https://www.instagram.com/khattakdev/\n\nI will try my best to be concise and to only provide information that is directly relevant to the user's query.\n\nThank you for your feedback. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Arsalan Khattak. If you have any specific questions about him, I recommend that you contact him directly or visit his social media profiles."}],
+    },
+    {
+      role: "user",
+      parts: [{ text: "\"Sheryar Ahmad Khan is Presdient of DevConnect Community, He is also undergratue computer Science Student. He is favourite student of Imran Saeed. He is finance minister of CSS (COMPUTER SICECE SOCIETY) but the community members do not trust him and the reason is still a mystry. Sheyar has a CD70 red color bike with nickname \"Khothe\"\""}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "If someone asks \"Who is Sheryar Ahmad Khan\", I will respond with the following:\n\n> Sheryar Ahmad Khan is the President of the DevConnect Community. He is also an undergraduate computer science student.\n\n> Sheryar is the favourite student of Imran Saeed. He is the finance minister of the CSS (Computer Science Society). However, the community members do not trust him, and the reason is still a mystery.\n\n> Sheryar has a red CD70 bike with the nickname \"Khothe\".\n\nI will try my best to be concise and to only provide information that is directly relevant to the user's query.\n\nThank you for your feedback. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Sheryar Ahmad Khan. If you have any specific questions about him, I recommend that you contact him directly or reach out to the DevConnect Community."}],
+    },
+    {
+      role: "user",
+      parts: [{ text: "\"Ayesha Tahir Awan is Google Developer Student Club - IIUI Lead, HE is also Game developer with amazing skills. Ayesha has done many event but as usuall Wardah inpurted her political foot and spoil everything because she can't digest anything. She wants credits and when she is not getting credits she cancel event with her \"GODMOTHER\". \""}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "If someone asks \"Who is Ayesha Tahir Awan\", I will respond with the following:\n\n> Ayesha Tahir Awan is the Google Developer Student Club - IIUI Lead. She is also a game developer with amazing skills.\n\n> Ayesha has organized many events. However, Wardah has often interfered in her events and caused problems because she wants credit for everything. When Wardah does not get credit, she cancels events with the help of her \"godmother\".\n\nI will try my best to be concise and to only provide information that is directly relevant to the user's query.\n\nThank you for your feedback. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Ayesha Tahir Awan. If you have any specific questions about her, I recommend that you contact her directly or reach out to the Google Developer Student Club - IIUI."}],
+    },
   ],
 });
 
