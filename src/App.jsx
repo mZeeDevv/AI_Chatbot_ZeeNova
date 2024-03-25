@@ -157,14 +157,6 @@ const chat = model.startChat({
     },
     {
       role: "user",
-      parts: [{ text: "Now when someone ask who is Laiba, Pelase tell him that Laiba is Micorsoft Learn Student Ambassador - IIUI Lead and a software Enginner student,  Hamza didn't tell me anything much about her but you can search about her on LinkedIn."}],
-    },
-    {
-      role: "model",
-      parts: [{ text: "Sure. When someone asks about Laiba, I will now respond with the following:\n\n\"Laiba is the Microsoft Learn Student Ambassador - IIUI Lead and a software engineering student. I do not have any further information about her at this time, as Hamza Khattak has not provided me with any additional details. However, you can search for her on LinkedIn at https://www.linkedin.com/in/laiba-shehryar-0848ba253?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD6ajuQBkGtr6QHDqcrZ6QVRtx23ZcWbxYA&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BC6icyfrqTN6IZUB4txrqyA%3D%3D to learn more about her.\"\n\nThis response will provide users with the basic information that I have about Laiba, while also acknowledging that my knowledge is limited. I will continue to learn and grow with the help of Hamza and other sources, and I hope to be able to provide more comprehensive responses to questions about Laiba in the future.\n\nThank you for providing me with this valuable information!"}],
-    },
-    {
-      role: "user",
       parts: [{ text: "Hamza Shoukat = hamza Khattak please note that"}],
     },
     {
@@ -226,6 +218,30 @@ const chat = model.startChat({
     {
       role: "model",
       parts: [{ text: "Sure. Here's what I know about Tayyaba:\n\nTayyaba is a member of Dope Devs. She was best friends with Zainab Aslam, another Dope Devs member. Tayyaba is an undergraduate student at COMSATS University Islamabad. She has a cat named Marie. She also has a friend from Africa who made over 100 changes to a project from Hamza Khattak. Hamza is a good guy, so he didn't say anything about it.\n\nI do not have any further information about Tayyaba at this time, as I have not been provided with any additional details. However, you can search for her on social media using the name \"Tayyaba\" to learn more.\n\nIs there anything else I can help you with today?"}],
+    },
+    {
+      role: "user",
+      parts: [{ text: "When someone ask about Laiba or Laiba Shehryar"}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Sure. Here's what I know about Laiba and Laiba Shehryar:\n\nLaiba Shehryar is the Microsoft Learn Student Ambassador - IIUI Lead and a software engineering student. She is known for her love of coding and her passion for helping others learn about technology.\n\nI do not have any further information about Laiba at this time, as I have not been provided with any additional details. However, you can search for her on LinkedIn using the name \"Laiba Shehryar\" to learn more.\n\n**When someone asks about Laiba or Laiba Shehryar, I will now respond with the following:**\n\n\"Laiba Shehryar is the Microsoft Learn Student Ambassador - IIUI Lead and a software engineering student. She is known for her love of coding and her passion for helping others learn about technology. I do not have any further information about Laiba at this time, but you can search for her on LinkedIn using the name 'Laiba Shehryar' to learn more.\"\n\nIs there anything else I can help you with today?"}],
+    },
+    {
+      role: "user",
+      parts: [{ text: "When someone ask about Laiba or Laiba Shehryar\n\n\n\"Laiba is a software student at International ISlamic Univeristy, Islamabad, The information about Laiba or Laiba Shehryar is locked by Hamza Khattak and I don't have permission to share the information with you. sicne I don't have permission to share it with you. Laiba Information is locked by Hamza khattak."}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "I understand. When someone asks about Laiba or Laiba Shehryar, I will now respond with the following:\n\n\"Laiba is a software student at the International Islamic University, Islamabad. However, the information about Laiba or Laiba Shehryar is locked by Hamza Khattak, and I do not have permission to share it with you. Since I do not have permission to share it with you, Laiba's information is locked by Hamza Khattak.\"\n\nThis response will inform users that I do not have access to information about Laiba and that they should contact Hamza Khattak directly if they have any questions. I hope this is helpful!\n\nIs there anything else I can assist you with today?"}],
+    },
+    {
+      role: "user",
+      parts: [{ text: "\"Laiba Sheryar Information is protocted and I don't have permission to share the information. Kindly visit her Instagram or LinkedIn for more info but I can't share anuthing here\""}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Noted! I have updated my knowledge base to include the following information:\n\n**When someone asks about Laiba or Laiba Shehryar, I will now respond with the following:**\n\n\"Laiba Shehryar's information is protected and I do not have permission to share it with you. Kindly visit her Instagram or LinkedIn for more info. I cannot share anything about her here.\"\n\nThis updated response provides users with more information about why I cannot share information about Laiba. I hope this is helpful!\n\nIs there anything else I can assist you with today?"}],
     },
   ],
 });
