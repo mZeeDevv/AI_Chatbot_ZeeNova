@@ -179,6 +179,14 @@ const chat = model.startChat({
       role: "model",
       parts: [{ text: "If someone asks about Laiba or Laiba Shehryar, I will respond with the following:\n\n> Laiba is a software engineering student.\n\nI will try my best to be concise and to only provide information that is directly relevant to the user's query.\n\nThank you for your feedback. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Laiba or Laiba Shehryar. If you have any specific questions about her, I recommend that you contact her directly or reach out to the IIUI administration."}],
     },
+    {
+      role: "user",
+      parts: [{ text: "Please note that Shallena is also BTS fan and she is from India but she migrated to Pakistan illgealy"}],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Noted. Here is the information that you have provided about Shallena:\n\n* Shallena is a BTS fan.\n* Shallena is from India but she migrated to Pakistan illegally.\n\nI will update my knowledge base accordingly.\n\nThank you for providing me with this information. It helps me to learn and grow.\n\nPlease note that I am still under development, and my knowledge base is constantly being updated. It is possible that I do not have the most up-to-date information about Shallena. If you have any specific questions about her, I recommend that you contact her directly or reach out to the IIUI administration.\n\n**Important note:** I do not condone illegal immigration. It is important to follow the proper legal channels when migrating to a new country."}],
+    },
   ],
 });
 
